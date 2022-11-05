@@ -1,0 +1,43 @@
+---
+name: CI
+'on':
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  setup:
+    name: pre-commit & repo cache generation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+          token: ${{ secrets.RELEASE_ACTION_TOKEN }}
+
+      - name: Setup Nu
+        uses: hustcer/setup-nu@v2
+        with:
+          version: '0.70.0'
+
+      - name: Generate new repo cache
+        run: ./generate-repo-cache.nu
+        shell: nu {0}
+
+      - name: Run pre-commit
+        uses: pre-commit/action@v3.0.0
+        id: pre-commit
+        with:
+          extra_args: --all-files --show-diff-on-failure --color=always
+        continue-on-error: true
+
+      - name: Push changes back if present
+        id: commit
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Pre-commit & updated repo cache
