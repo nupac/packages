@@ -23,7 +23,7 @@
   ],
   "post-install-msg": "",
   "pre-install-msg": "",
-  "raw-url": "https://raw.githubusercontent.com/nupac/packages/blob/main/packages/make/make.nu",
+  "raw-url": "https://raw.githubusercontent.com/nupac/packages/main/packages/make/make.nu",
   "short-desc": "makefile completions for nu",
   "url": "https://github.com/nupac/packages/blob/main/packages/make/make.nu",
   "version": "1.0.0"

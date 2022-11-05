@@ -4,7 +4,7 @@
     [
       "Yethal"
     ],
-    "checksum": "8d22615a6e48f970224b1c7cfe620ae1c96b01f42d06f17626c4e10e02892a17",
+    "checksum": "80942f8503bbc74059d2edd5e86cc55b44426215bf00f4ac8631c21a8c6e1143",
     "installer": "",
     "keywords":
     [
@@ -24,7 +24,7 @@
     ],
     "post-install-msg": "",
     "pre-install-msg": "",
-    "raw-url": "https://raw.githubusercontent.com/nupac/packages/blob/main/packages/make/make.nu",
+    "raw-url": "https://raw.githubusercontent.com/nupac/packages/main/packages/make/make.nu",
     "short-desc": "makefile completions for nu",
     "url": "https://github.com/nupac/packages/blob/main/packages/make/make.nu",
     "version": "1.0.0"
@@ -34,7 +34,7 @@
     [
       "Yethal"
     ],
-    "checksum": "fe4a2d0460d18b06f61f59f3354e8ad988bdbac95844f4a743c7eed11061498e",
+    "checksum": "bd1e1782220cb1c145797cc0d741db6f8d2b62e3d62ae42f0ce443d10fd935ad",
     "installer": "",
     "keywords":
     [
@@ -54,7 +54,7 @@
     ],
     "post-install-msg": "",
     "pre-install-msg": "",
-    "raw-url": "https://raw.githubusercontent.com/nupac/packages/blob/main/packages/remoting/remoting.nu",
+    "raw-url": "https://raw.githubusercontent.com/nupac/packages/main/packages/remoting/remoting.nu",
     "short-desc": "Remoting module for nu",
     "url": "https://github.com/nupac/packages/blob/main/packages/remoting/remoting.nu",
     "version": "1.0.0"
