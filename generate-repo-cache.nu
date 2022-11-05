@@ -58,12 +58,12 @@ def add-optional-attributes [
 }
 
 def get-metadata-jsons [] {
-    ls modules
+    ls packages
     |where type == dir
     |get name
     |path basename
     |each {|dir|
-        ["modules" $dir "metadata.json"]
+        ["packages" $dir "metadata.json"]
         |path join
     }
 }

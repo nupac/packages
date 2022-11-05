@@ -4,7 +4,7 @@
     [
       "Yethal"
     ],
-    "checksum": "16cf2ba54087acb22516501b25de3b139fca7f1d27b415293c1ac0a1298b4908",
+    "checksum": "8d22615a6e48f970224b1c7cfe620ae1c96b01f42d06f17626c4e10e02892a17",
     "installer": "",
     "keywords":
     [
@@ -24,9 +24,9 @@
     ],
     "post-install-msg": "",
     "pre-install-msg": "",
-    "raw-url": "https://raw.githubusercontent.com/nupac/nupac/main/modules/make/make.nu",
+    "raw-url": "https://raw.githubusercontent.com/nupac/packages/blob/main/packages/make/make.nu",
     "short-desc": "makefile completions for nu",
-    "url": "https://github.com/nupac/nupac/blob/main/modules/make/make.nu",
+    "url": "https://github.com/nupac/packages/blob/main/packages/make/make.nu",
     "version": "1.0.0"
   },
   {
@@ -34,7 +34,7 @@
     [
       "Yethal"
     ],
-    "checksum": "db521635c167b4825517717c79a3c1275bd2e9c6cf844c74f4153e891bcf4406",
+    "checksum": "fe4a2d0460d18b06f61f59f3354e8ad988bdbac95844f4a743c7eed11061498e",
     "installer": "",
     "keywords":
     [
@@ -54,41 +54,9 @@
     ],
     "post-install-msg": "",
     "pre-install-msg": "",
-    "raw-url": "https://raw.githubusercontent.com/nupac/nupac/main/modules/remoting/remoting.nu",
+    "raw-url": "https://raw.githubusercontent.com/nupac/packages/blob/main/packages/remoting/remoting.nu",
     "short-desc": "Remoting module for nu",
-    "url": "https://github.com/nupac/nupac/blob/main/modules/remoting/remoting.nu",
+    "url": "https://github.com/nupac/packages/blob/main/packages/remoting/remoting.nu",
     "version": "1.0.0"
-  },
-  {
-    "author":
-    [
-      "skelly37",
-      "Yethal"
-    ],
-    "checksum": "3bb89e4bde63a66eebcaf9fa438aba528289eca3f44063e84b6767b2287e6188",
-    "installer": "",
-    "keywords":
-    [
-      "package",
-      "packages",
-      "management",
-      "manager"
-    ],
-    "long-desc": "Nupac is a package manager written in nu and for nu. Source on https://github.com/nupac/nupac",
-    "name": "nupac",
-    "nu-dependencies": [],
-    "os":
-    [
-      "android",
-      "linux",
-      "macos",
-      "windows"
-    ],
-    "post-install-msg": "",
-    "pre-install-msg": "",
-    "raw-url": "https://raw.githubusercontent.com/nupac/nupac/main/modules/nupac/nupac.nu",
-    "short-desc": "package manager for nushell",
-    "url": "https://github.com/nupac/nupac/blob/main/modules/nupac/nupac.nu",
-    "version": "0.1.0"
   }
 ]
